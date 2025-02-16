@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prahlad Gaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Prahlad Gaming</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Prahlad Gaming!</h2>
+            <p>Where the gaming adventure never ends!</p>
+            <a href="#games" class="btn">Explore Games</a>
+        </div>
+    </section>
+
+    <section id="games" class="games-section">
+        <h2>Popular Games</h2>
+        <div class="game-list">
+            <div class="game-item">
+                <img src="game1.jpg" alt="Game 1">
+                <h3>Game Title 1</h3>
+            </div>
+            <div class="game-item">
+                <img src="game2.jpg" alt="Game 2">
+                <h3>Game Title 2</h3>
+            </div>
+            <div class="game-item">
+                <img src="game3.jpg" alt="Game 3">
+                <h3>Game Title 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Prahlad Gaming is a place where gaming enthusiasts can connect, discover new games, and share their passion for gaming.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prahlad Gaming. All rights reserved.</p>
+    </footer>
+<style>
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    color: #f5a623;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #f5a623;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gaming-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #f5a623;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ff6f00;
+}
+
+/* Games Section */
+.games-section {
+    padding: 40px;
+    background-color: #333;
+    text-align: center;
+}
+
+.games-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-item h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px;
+    background-color: #222;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px;
+    background-color: #333;
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #ff6f00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+</style
+
+</body>
+</html>
